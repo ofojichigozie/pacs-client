@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="693.0" style="-fx-background-color: #dddddd;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.StartController">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="201.0" prefWidth="433.0" StackPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="130.0" prefWidth="438.0" style="-fx-font-size: 16pt; -fx-font-weight: bold; -fx-text-fill: #1414af;" text="MEDICAL IMAGE SECURITY IN CLOUD USING LINEAR FEEDBACK SHIFT REGISTERS" textAlignment="CENTER" wrapText="true" />
+            <Label fx:id="infoLabel1" alignment="CENTER" contentDisplay="CENTER" prefHeight="26.0" prefWidth="434.0" style="-fx-font-size: 12pt; -fx-text-alignment: center;" text="Secure authentication is ongoing" textAlignment="CENTER" wrapText="true" />
+            <Label fx:id="infoLabel2" alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="436.0" style="-fx-font-size: 12pt; -fx-text-alignment: center; -fx-text-fill: #ec2525;" text="Please, wait." textAlignment="CENTER" wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+</StackPane>
